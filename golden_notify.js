@@ -145,7 +145,7 @@ panel.innerHTML="<button onclick=\"register()\">Notify me !</button>";
 
 function register()
 {
-if(window.Notification.checkPermission()!=0)
+if(window.Notification.permission !== 'granted')
     window.Notification.requestPermission(register_step2);
 else
     register_step2();
@@ -153,7 +153,7 @@ else
 
 function register_step2()
 {
-if(window.Notification.checkPermission()!=0)
+if(window.Notification.permission !== 'granted')
     {
     alert('No notification support for you :(');
     }
