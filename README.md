@@ -17,7 +17,7 @@ All you've to do is enter this code in your JavaScript console (F12, Ctrl+Shift+
 
 ```
 var js=document.createElement('script');
-js.setAttribute('src','https://raw.github.com/Xfennec/CookieClicker/master/golden_notify.js');
+js.setAttribute('src','https://raw.github.com/d3x7r0/CookieClicker/master/golden_notify.js');
 document.body.appendChild(js);
 ```
 … and then click on the "Notify me !" button on the upper right corner of the screen.
@@ -26,7 +26,7 @@ If you don't want to have to copy/paste the code each time you reopen the game, 
 option is to create a bookmark in your brower, and add this as the URL :
 
 ```
-javascript:(function(){var js=document.createElement('script'); js.setAttribute('src','https://raw.github.com/Xfennec/CookieClicker/master/golden_notify.js'); document.body.appendChild(js);}())
+javascript:(function(){var js=document.createElement('script');js.setAttribute('src','https://raw.github.com/d3x7r0/CookieClicker/master/golden_notify.js'); document.body.appendChild(js);}())
 ```
 
 Have fun not cheating this silly/brilliant game !
